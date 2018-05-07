@@ -1,0 +1,24 @@
+{
+  "app": {
+    "port": 9001
+  },
+  "db": {
+    "name": "d779fqi2hfhj8i",
+    "user": "bdahmvvlqrvtvx",
+    "pass": "1738ad0e79811b7899117c665788175cf9556cff632f696ca34a876cdb0becb8",
+    "options": {
+      "dialect": "postgres",
+      "host": "ec2-54-243-63-13.compute-1.amazonaws.com",
+      "define": {
+        "timestamps": false,
+        "paranoid": false,
+        "freezeTableName": true
+      },
+      "logging": false
+    }
+  },
+  "cookie": {
+    "key": "secret key",
+    "auth": "__auth_id"
+  }
+}
